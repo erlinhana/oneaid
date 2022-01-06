@@ -30,7 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   sleek_button: ^0.2.0 
 
- dev_dependencies: 
+dev_dependencies:
   flutter_test:
     sdk: flutter
 
