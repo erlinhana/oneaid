@@ -46,10 +46,10 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
         TextField(
-          decoration: const InputDecoration(labelText:"Layanan Darurat"),
+          decoration: const InputDecoration(labelText:"Nama"),
         ),
         TextField(
-          decoration: InputDecoration(labelText: "Pertolongan Pertama")
+          decoration: InputDecoration(labelText: "Alamat")
           ),
 
       ],
