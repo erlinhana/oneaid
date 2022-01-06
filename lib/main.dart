@@ -40,18 +40,19 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Column(
-        children: [
-        TextField(
-          decoration: const InputDecoration(labelText:"Nama"),
+        appBar: AppBar(
+          title: Text(widget.title),
         ),
-        TextField(
-          decoration: InputDecoration(labelText: "Alamat")
-          ),
+        body: Column(
+          children: [
+            TextField(
+              decoration: const InputDecoration(labelText: "Nama"),
+            ),
+            TextField(
+                decoration: InputDecoration(labelText: "Alamat")
+            ),
 
-      ],
-    ));
+          ],
+        ));
   }
+}
